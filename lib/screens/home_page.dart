@@ -7,6 +7,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff30475E),
+      appBar: AppBar(
+        title: Text("Home"),
+      ),
       // title: "dd",
       // color: Colors.green,
       bottomNavigationBar: BottomNavBar(),
