@@ -7,15 +7,16 @@ void main() => runApp(const MyApp());
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  @override
+ @override
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.blueGrey),
+      debugShowCheckedModeBanner : false,
       routes: {
         '/': (context) => HomePage(),
-        '/location':  (context) => LocationPage(),
+        '/location': (context) => LocationPage(),
       },
-      initialRoute: '/location'
+      initialRoute: '/'
     );
   }
 }
