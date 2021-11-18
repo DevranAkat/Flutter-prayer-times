@@ -11,8 +11,6 @@ class LocationPage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Location"),
       ),
-      // title: "dd",
-      // color: Colors.green,
       bottomNavigationBar: BottomNavBar(),
     );
   }
