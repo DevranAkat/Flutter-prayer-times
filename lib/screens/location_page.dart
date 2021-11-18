@@ -6,9 +6,11 @@ class LocationPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   return Scaffold(
-      appBar: AppBar(title: Text("AA"),),
-      body: Center(child: FlutterLogo(),),
+    return Scaffold(
+      backgroundColor: const Color(0xff30475E),
+      appBar: AppBar(
+        title: Text("Location"),
+      ),
       // title: "dd",
       // color: Colors.green,
       bottomNavigationBar: BottomNavBar(),
