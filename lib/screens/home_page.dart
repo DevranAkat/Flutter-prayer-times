@@ -11,8 +11,6 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Home"),
       ),
-      // title: "dd",
-      // color: Colors.green,
       bottomNavigationBar: BottomNavBar(),
     );
   }
