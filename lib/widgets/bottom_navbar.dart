@@ -4,7 +4,7 @@ class BottomNavBar extends StatelessWidget {
   const BottomNavBar({Key? key}) : super(key: key);
   
  static const List<Color> colors = [Colors.blue, Colors.red, Colors.green];
- static int currentIndex = 0;
+ static int currentIndex = 1;
   @override
   Widget build(BuildContext context) {
     return BottomNavigationBar(
