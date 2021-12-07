@@ -14,10 +14,6 @@ class BottomNavBar extends StatelessWidget {
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(Icons.location_on),
-          activeIcon: Icon(
-          Icons.home,
-          // color: indexx == 0 ? Colors.red : Colors.blueGrey,
-        ),
           label: 'Location',
         ),
         BottomNavigationBarItem(
@@ -34,16 +30,13 @@ class BottomNavBar extends StatelessWidget {
         switch (index) {
           case 0:
             Navigator.of(context).pushNamedAndRemoveUntil('/location', (route) => false);
-            // Navigator.pushNamed(context, '/location');
             break;
           case 1:
             Navigator.of(context).pushNamedAndRemoveUntil('/', (route) => false);
-            // Navigator.pushNamed(context, '/');
             break;
           case 2:
-          Navigator.of(context).pushNamedAndRemoveUntil('/settings', (route) => false);
-          // Navigator.pushNamed(context, '/');
-          break;
+            Navigator.of(context).pushNamedAndRemoveUntil('/settings', (route) => false);
+            break;
           default:
         }
       },
