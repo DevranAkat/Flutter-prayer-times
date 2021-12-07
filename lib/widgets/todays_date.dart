@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DateContainer extends StatelessWidget {
-  final String date = "Perşembe 18 Kasım 2021";
+  final String date = "Çarşamba 7 Aralık 2021";
   final String dateHicri = "13 Rebîulâhir 1443";
   
   const DateContainer({Key? key}) : super(key: key);
@@ -23,4 +23,10 @@ class DateContainer extends StatelessWidget {
       ),
     );
   }
+}
+
+String getTodaysDate() {
+  DateTime now =  DateTime.now();
+  DateTime date =  DateTime(now.year, now.month, now.day); 
+  return date.toString();
 }

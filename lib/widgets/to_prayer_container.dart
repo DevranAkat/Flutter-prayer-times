@@ -30,12 +30,12 @@ class ToPrayerContainer extends StatelessWidget {
   }
 }
 Column buildTimeSection(BuildContext context, String subTitle, int time) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text("$time", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold ,fontSize: 36)),
-        Text(subTitle, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-      ],
-    );
-  }
+  return Column(
+    crossAxisAlignment: CrossAxisAlignment.center,
+    mainAxisAlignment: MainAxisAlignment.center,
+    children: <Widget>[
+      Text("$time", style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold ,fontSize: 36)),
+      Text(subTitle, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
+    ],
+  );
+}

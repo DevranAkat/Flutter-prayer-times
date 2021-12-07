@@ -21,7 +21,7 @@ class PrayerTimesContainer extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(0,10,0,0),
             child: Table(
               children: <TableRow>[
-                buildPrayerSection(context, "O", "Imsak", "05:58"),
+                buildPrayerSection(context, "O", "İmsak", "05:58"),
                 buildPrayerSection(context, "O", "Güneş", "08:46"),
                 buildPrayerSection(context, "O", "Öğle", "12:08"),
                 buildPrayerSection(context, "O", "İkindi", "13:06"),
@@ -40,23 +40,14 @@ TableRow buildPrayerSection(BuildContext context, String icon, String timeName, 
     decoration: BoxDecoration(border: Border(
       bottom: BorderSide(
         color: Colors.white,
-        width: 1.0,
+        width: 2.0,
         ),
       ),
     ),
     children: [
-      Padding(
-        padding: const EdgeInsets.fromLTRB(0,10,0,0),
-        child: TableCell(child: Text(icon, textAlign: TextAlign.center, style: TextStyle(color: Colors.white)), verticalAlignment: TableCellVerticalAlignment.middle),
-      ),
-      Padding(
-        padding: const EdgeInsets.fromLTRB(0,10,0,0),
-        child: TableCell(child: Text(timeName, textAlign: TextAlign.center, style: TextStyle(color: Colors.white)), verticalAlignment: TableCellVerticalAlignment.middle),
-      ),
-      Padding(
-        padding: const EdgeInsets.fromLTRB(0,10,0,0),
-        child: TableCell(child: Text(time, textAlign: TextAlign.center, style: TextStyle(color: Colors.white)), verticalAlignment: TableCellVerticalAlignment.middle),
-      ),
+      TableCell(child: Text(icon, textAlign: TextAlign.center, style: TextStyle(color: Colors.white)), verticalAlignment: TableCellVerticalAlignment.middle),
+      TableCell(child: Text(timeName, textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontSize: 18)), verticalAlignment: TableCellVerticalAlignment.middle),
+      TableCell(child: Text(time, textAlign: TextAlign.center, style: TextStyle(color: Colors.white)), verticalAlignment: TableCellVerticalAlignment.middle),
     ],
   );
 }
