@@ -21,7 +21,8 @@ class DateContainer extends StatelessWidget {
           Text(todaysDateTurkish(), style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
           Padding(
             padding: EdgeInsets.fromLTRB(0, 5, 0, 0),
-            child: Text(todaysDateHijri(), style: TextStyle(color: Colors.white))),
+            child: Text(todaysDateHijri(), style: TextStyle(color: Colors.white))
+          ),
         ],
       ),
     );
