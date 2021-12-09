@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/widgets/app_bar.dart';
+import 'package:flutter_app/widgets/top_bar.dart';
 import 'package:flutter_app/widgets/bottom_navbar.dart';
 
 class SettingsPage extends StatelessWidget {

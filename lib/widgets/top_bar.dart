@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/globals/app_colors.dart';
 
-AppBar topBar({String title = "Hello"}){
+AppBar topBar({required String title}){
   return AppBar(
     shape: RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(
