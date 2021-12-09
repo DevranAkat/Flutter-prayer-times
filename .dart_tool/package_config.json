@@ -74,6 +74,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "hijri",
+      "rootUri": "file:///C:/Program%20Files/flutter/.pub-cache/hosted/pub.dartlang.org/hijri-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///C:/Program%20Files/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.17.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "lints",
       "rootUri": "file:///C:/Program%20Files/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
       "packageUri": "lib/",
@@ -182,7 +194,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-12-07T23:38:07.934412Z",
+  "generated": "2021-12-09T22:36:19.534563Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }
