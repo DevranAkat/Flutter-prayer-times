@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/globals/app_colors.dart';
+import 'package:flutter_app/widgets/top_bar.dart';
 import 'package:flutter_app/widgets/bottom_navbar.dart';
 import 'package:flutter_app/widgets/prayer_times.dart';
 import 'package:flutter_app/widgets/todays_date.dart';
@@ -11,16 +13,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xff30475E),
-      appBar: AppBar(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(
-          bottom: Radius.circular(40),
-          )
-        ),
-        centerTitle: true,
-        title: Text("Home"),
-        backgroundColor: const Color(0xff222831),
-      ),
+      appBar: topBar(title: 'Home'),
       body: ListView(
         children: <Widget>[
           Padding(

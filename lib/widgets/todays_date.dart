@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/globals/app_colors.dart';
 import 'package:intl/intl.dart' show DateFormat;
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:hijri/hijri_calendar.dart';
@@ -15,7 +16,7 @@ class DateContainer extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.symmetric(vertical: 17.0),
-      decoration: BoxDecoration(color: Color(0xff222831), borderRadius: BorderRadius.all(Radius.circular(30))),
+      decoration: BoxDecoration(color: AppColors.colorPrimary, borderRadius: BorderRadius.all(Radius.circular(30))),
       child: Column(
         children: [
           Text(todaysDateTurkish(), style: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
