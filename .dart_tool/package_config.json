@@ -98,6 +98,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "mdi",
+      "rootUri": "file:///C:/Program%20Files/flutter/.pub-cache/hosted/pub.dartlang.org/mdi-5.0.0-nullsafety.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "meta",
       "rootUri": "file:///C:/Program%20Files/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.7.0",
       "packageUri": "lib/",
@@ -194,7 +200,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-12-09T23:43:42.582341Z",
+  "generated": "2021-12-11T00:53:48.289588Z",
   "generator": "pub",
   "generatorVersion": "2.14.4"
 }
